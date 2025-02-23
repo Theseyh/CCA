@@ -1,4 +1,4 @@
-```markdown
+
 # Cloud Computing - Projet de Stack de Développement
 
 Ce projet consiste à configurer une infrastructure de stack de développement à l'aide de Docker et Docker Compose, pour tester et déployer du code dans un environnement containerisé. L'objectif est de créer un environnement de test dans un conteneur Docker, tout en développant et testant le code en dehors du conteneur.
