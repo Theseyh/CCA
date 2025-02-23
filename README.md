@@ -61,20 +61,6 @@ Le fichier `docker-compose.yml` définit les deux services et permet de configur
 
 ### **Projet Initial : Data Battle (ING2)**
 
-Le projet initial était de mettre en œuvre le moteur de recherche de la **Data Battle** d'ING2, qui consistait à créer un moteur de recherche à l'aide d'un modèle Transformer et à trouver la meilleure réponse possible en fonction de la question posée. 
+Le projet initial visait à mettre en œuvre le moteur de recherche de la **Data Battle** d'ING2. L'objectif était de créer un moteur de recherche à l'aide d'un modèle **Transformer** et de trouver la meilleure réponse possible en fonction de la question posée.
 
-#### Objectifs :
-
-1. **Créer un moteur de recherche** : Utiliser un modèle de type Transformer pour effectuer des recherches basées sur des questions.
-2. **Améliorer la pertinence des résultats** : Intégrer une logique permettant de trouver la meilleure réponse à une question en fonction de la base de données.
-
-Dans le cadre de ce projet, l'intégration de Flask et MySQL permet de simuler des requêtes pour interagir avec la base de données et tester l'efficacité du moteur de recherche.
-
-### **Prochaines étapes**
-1. **Configurer votre `docker-compose.yml`** : Définissez les services MySQL et Flask.
-2. **Développer le programme Python** : Écrivez le code Flask pour interagir avec MySQL et décrire l'architecture de la base de données.
-3. **Tester l'intégration** : Vérifiez que Flask peut se connecter à MySQL et exécuter des requêtes.
-4. **Intégrer le modèle de Transformer** : Si vous avez accès au modèle, intégrez-le dans Flask pour simuler des recherches et améliorer la pertinence des résultats.
-```
-
-Le fichier `README.md` est maintenant complet et contient toutes les informations nécessaires sur ton projet, y compris les étapes de configuration, l'intégration des conteneurs, et le projet initial de la Data Battle. Tu peux l'utiliser tel quel dans ton dépôt GitHub ou GitLab.
+Cependant, en raison du grand nombre de dépendances et des difficultés associées à leur gestion, nous avons décidé d'abandonner cette possibilité et de réorienter le projet.
