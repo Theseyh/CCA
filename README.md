@@ -26,13 +26,29 @@ Le projet est structuré comme suit :
 
 Pour lancer les conteneurs et créer l'environnement de test, il suffit d'exécuter la commande suivante dans le répertoire principal du projet :
 
+
+Ce projet utilise Docker pour gérer les conteneurs nécessaires à l'application.
+
+## Commandes de base
+
+### 1. Démarrer les conteneurs
+
+Pour démarrer les conteneurs, exécutez la commande suivante :
+
 ```bash
 docker-compose up
+```
 
-2. Arrêter les Conteneurs
+Cela lancera tous les services définis dans le fichier `docker-compose.yml`.
 
-Pour arrêter les conteneurs, exécute la commande suivante :
+### 2. Arrêter les conteneurs
 
+Pour arrêter les conteneurs, exécutez la commande suivante :
+
+```bash
 docker-compose down
+```
 
 Cela arrêtera et supprimera tous les conteneurs, réseaux et volumes associés.
+
+
